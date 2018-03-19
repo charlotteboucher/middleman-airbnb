@@ -1,0 +1,42 @@
+.container-cards {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 0;
+}
+
+.card {
+  flex: 1 1 auto;
+  position: relative;
+  font-family: $headers-font;
+  width: 250px;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  margin: 20px 0;
+}
+
+.card-category {
+  padding: 10px;
+  font-size: 14px;
+
+}
+
+.card-description {
+  padding: 10px;
+  font-size: 12px;
+  h3 {
+    font-size: 14px;
+  }
+}
+
+.card-user {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.card-link {
+
+}
